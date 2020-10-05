@@ -56,4 +56,5 @@ int main(int argc, char **argv){
 	pthread_create(&listen, NULL, &listening, 0);
 	doStuff();
 	destruction();
+	return 0;
 }
